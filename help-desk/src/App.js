@@ -91,6 +91,7 @@ export default function SignUp() {
               </Grid>
               <Grid item xs={18}>
                 <TextField
+                InputProps={{style:{height:150}}}
                   maxWidth
                   required
                   fullWidth
@@ -106,7 +107,7 @@ export default function SignUp() {
               type="submit"
               fullWidth
               variant="contained"
-              sx={{ mt: 10, mb: 5 }}
+              sx={{ mt: 4, mb: 2 }}
             >
               submit
             </Button>
